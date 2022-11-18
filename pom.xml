@@ -112,17 +112,16 @@
         </configuration>
       </plugin>
 
-      <plugins>
-        <plugin>
-          <groupId>com.github.spotbugs</groupId>
-          <artifactId>spotbugs-maven-plugin</artifactId>
-          <version>4.0.0</version>
-          <configuration>
-            <xmlOutput>true</xmlOutput>
-            <failOnError>false</failOnError>
-          </configuration>
-        </plugin>
-      </plugins>
+
+      <plugin>
+        <groupId>com.github.spotbugs</groupId>
+        <artifactId>spotbugs-maven-plugin</artifactId>
+        <version>4.0.0</version>
+        <configuration>
+          <xmlOutput>true</xmlOutput>
+          <failOnError>false</failOnError>
+        </configuration>
+      </plugin>
       
       <plugin>
         <groupId>org.eclipse.jetty</groupId>
